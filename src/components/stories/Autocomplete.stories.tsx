@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import { PageWrapper } from '../storybook';
-import { OptionType } from '../Autocomplete/types';
-import Autocomplete from '../Autocomplete';
 import { createFilterOptions } from '@material-ui/lab';
+import React, { useState } from 'react';
+
+import Autocomplete from '../Autocomplete';
+import { OptionType } from '../Autocomplete/types';
+import { PageWrapper } from '../storybook';
 
 export default {
     title: 'Components/Autocomplete',
@@ -13,7 +14,7 @@ const top100Films: OptionType[] = [
     { value: 'The Shawshank Redemption', title: 'The Shawshank Redemption' },
     { value: 'The Godfather', title: 'The Godfather' },
     { value: 'The Dark Knight', title: 'The Dark Knight' },
-    { value: '12 Angry Men', title: '12 Angry Men' },
+    { value: 'Thor', title: 'Thor' },
 ];
 
 const filterOptions = createFilterOptions<OptionType>({

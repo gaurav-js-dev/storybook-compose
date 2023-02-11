@@ -1,6 +1,7 @@
-import { PageWrapper } from '../storybook';
 import React from 'react';
+
 import { Button } from '..';
+import { PageWrapper } from '../storybook';
 
 export default {
     title: 'Components/Button',

@@ -1,8 +1,9 @@
-import React from 'react';
-import { Autocomplete as MuiAutocomplete } from '@material-ui/lab';
 import { Chip, Typography } from '@material-ui/core';
-import { AutocompletePropsTypes, OptionType } from './types';
+import { Autocomplete as MuiAutocomplete } from '@material-ui/lab';
+import React from 'react';
+
 import { StyledChipContainer, StyledTextInput } from './styled';
+import { AutocompletePropsTypes, OptionType } from './types';
 
 const Autocomplete = (props: AutocompletePropsTypes) => {
     const { onDelete, ...rest } = props;
