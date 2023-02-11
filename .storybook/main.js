@@ -6,14 +6,14 @@ module.exports = {
     stories: ['../src/**/*.stories.[tj]sx'],
     addons: ['@storybook/addon-storysource', '@storybook/addon-docs', '@storybook/addon-knobs/register'],
     refs: {
-        // 'Chromatic Design System': {
-        //     title: 'Storybook Design System',
-        //     url: 'https://5ccbc373887ca40020446347-yldsqjoxzb.chromatic.com',
-        // },
-        // 'Storybook TypeScript Example': {
-        //     title: 'Storybook TypeScript Example',
-        //     url: 'https://ebazhanov.github.io/storybook-typescript-example',
-        // },
+        'Chromatic Design System': {
+            title: 'Storybook Design System',
+            url: 'https://5ccbc373887ca40020446347-yldsqjoxzb.chromatic.com',
+        },
+        'Storybook TypeScript Example': {
+            title: 'Storybook TypeScript Example',
+            url: 'https://ebazhanov.github.io/storybook-typescript-example',
+        },
         'UI Storybook Example': {
             title: 'UI Storybook',
             url: 'http://localhost:4400',
